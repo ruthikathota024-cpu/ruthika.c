@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	float r,a,l,b,c,s,R,t;
+	printf("enter r value:");
+	scanf("%f",&r);
+	printf("enter a value:");
+	scanf("%f",&a);
+	printf("enter l and b values:");
+	scanf("%f %f",&l,&b);
+	c=(3.14)*r*r;
+	printf("area of circle is:%f\n",c);
+	s=a*a;
+	printf("area of square is:%f\n",s);
+	R=l*b;
+	printf("area of rectangle is %f:\n",R);
+	t=0.5*l*b;
+	printf("area of triangle is %f\n",t);
+	return 0;
+}

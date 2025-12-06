@@ -1,0 +1,15 @@
+#include<stdio.h>
+void display(int[]);
+int main()
+{
+	int marks[]={99,100,100,99};
+	display(marks);
+}
+void display(int marks[])
+	{
+	
+	int i;
+	printf("the marks are :\n");
+	for(i=0;i<4;i++)
+	printf("%d\n",marks[i]);
+} 

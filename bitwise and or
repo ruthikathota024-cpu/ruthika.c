@@ -1,0 +1,7 @@
+#include<stdio.h>
+main()
+{
+	int a=3,b=2,c=a&b,d=a|b;
+	printf("the and operation output is :%d\n",c);
+	printf("the or operation output is :%d",d);
+}

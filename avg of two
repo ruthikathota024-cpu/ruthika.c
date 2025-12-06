@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{
+	int a,b,avg;
+	printf("enter a and b values:");
+	scanf("%d\t%d",&a,&b);
+	avg=(a+b)/2;
+	printf("average of a and b is :%d",avg);
+}
